@@ -49,133 +49,81 @@ nav ul li a:hover:after {
   width: 100%;
 }
 
+svg{
+  margin-top: 450px;
+  position: fixed;
+}
 
+.cards{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+}
   
+.img-integrantes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+  transform: translateY(30px) scale(0.5);
+  transform-origin: top;
+}
   
-  .card {
-    width: 300px;
-    height: 450px;
-    background: #fff;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
-  }
+.img-integrantes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
   
-  .img-bx {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    transform: translateY(30px) scale(0.5);
-    transform-origin: top;
-  }
+.conteudo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
   
-  .img-bx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.conteudo .informacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
   
-  .content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 30px;
-  }
+.conteudo .informacoes h2 {
+  color: #383838;
+  font-size: 24px;
+}
   
-  .content .detail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
+.conteudo .informacoes h2 span {
+  font-size: 20px;
+  color: #fd4766;
+}
   
-  .content .detail h2 {
-    color: #444;
-    font-size: 1.6em;
-    font-weight: bolder;
-  }
-  
-  .content .detail h2 span {
-    font-size: 0.7em;
-    color: #fd4766;
-    font-weight: bold;
-  }
-  
-  .insta{
-    width: 40px;
-    border-radius: 15px;
-  }
+.insta, .github, .linkedin, .twitter{
+  width: 40px;
+  border-radius: 15px;
+}
 
-  .insta:hover{
-    opacity: 0.5;
-    transition: .4s;
-    transform: rotate(20deg);
-  }
-
-  .github{
-    width: 40px;
-    border-radius: 15px;
-  }
-
-  .github:hover{
-    opacity: 0.5;
-    transition: .4s;
-    transform: rotate(20deg);
-  }
-
-  .linkedin{
-    width: 40px;
-    border-radius: 15px;
-  }
-
-  .linkedin:hover{
-    opacity: 0.5;
-    transition: .4s;
-    transform: rotate(20deg);
-  }
-  
-  .twitter{
-    width: 40px;
-    border-radius: 15px;
-  }
-
-  .twitter:hover{
-    opacity: 0.5;
-    transition: .4s;
-    transform: rotate(20deg);
-  }
-
-  .link{
-    width: 40px;
-    border-radius: 15px;
-  }
-
-  .link:hover{
-    opacity: 0.5;
-    transition: .4s;
-    transform: rotate(20deg);
-  }
-
-  .cards{
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  svg{
-    margin-top: 450px;
-    position: fixed;
-  }
+.insta:hover, .github:hover, .linkedin:hover, .twitter:hover{
+  opacity: 0.5;
+  transition: .4s;
+  transform: rotate(20deg);
+}

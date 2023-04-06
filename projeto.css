@@ -16,9 +16,6 @@ a {
     cursor: pointer;
     color: #fd4766;
     font-size: 75px;
-    font-weight: 900;
-    line-height: 90px;
-    text-transform: inherit;
   }
 
 nav {
@@ -58,6 +55,11 @@ nav ul li a:hover:after {
   width: 100%;
 }
 
+svg{
+  margin-top: 450px;
+  position: fixed;
+}
+
 .conteudo {
   position: absolute;
   top: 30%;
@@ -67,9 +69,7 @@ nav ul li a:hover:after {
 .conteudo h1 {
   color: #1f1f25;
   font-size: 75px;
-  font-weight: 900;
   line-height: 90px;
-  text-transform: inherit;
 }
 
 .conteudo h1 span {
@@ -82,10 +82,6 @@ nav ul li a:hover:after {
   width: 70%;
 }
 
-svg{
-  margin-top: 450px;
-  position: fixed;
-}
 
 strong{
   color: #fd4766;

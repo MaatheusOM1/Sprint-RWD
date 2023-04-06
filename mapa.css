@@ -52,30 +52,24 @@ svg{
   position: fixed;
 }
 
-
-
-
-
-
-
 #tudo{
-    width: 960px;
-    height:600px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+  width: 960px;
+  height:600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
 
 p{
-    font-size: 16px;
-    text-align: center;  
-    font-family:arial;
-    padding: 10px;
-    text-transform: uppercase;
-    color: #1f1f25;
-    font-weight: 900;
-    line-height: 70px;
+  font-size: 16px;
+  text-align: center;  
+  font-family:arial;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #1f1f25;
+  font-weight: 900;
+  line-height: 70px;
   }
 
 p:hover{
@@ -86,97 +80,77 @@ p:hover{
 }
 
 .box{
-    width: 200px;
-    height: 100px; 
-    background: #ededed;
-    margin: 0 auto;
-    border-radius: 20px;
-    border: 3px solid #575656;
-  }
-
-  .ponto{
-    width: 10px;
-   height: 10px;
-   background-color: #ededed;
-   display: block;
-   border: 2px solid orange;
-   border-radius: 10px;
-   margin: -6px auto;
-   z-index: 2;
+  width: 200px;
+  height: 100px; 
+  background: #ededed;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 3px solid #575656;
+}
+  
+.pontoum, .pontodois, .pontotres, .pontoquatro{
+  width: 13px;
+  height: 13px;
+  background-color: #ededed;
+  display: block;
+  border: 2px solid orange;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+}
+   
+.pontoum{
+  top: 93px;
+  left: 474px;
  }
 
- .pontoum{
-    width: 10px;
-   height: 10px;
-   background-color: #ededed;
-   display: block;
-   border: 2px solid orange;
-   border-radius: 10px;
-   position: absolute;
-   top: 42px;
-   left: 190px;
-   z-index: 2;
- }
- 
- .pontodois{
-    width: 10px;
-   height: 10px;
-   background-color: #ededed;
-   display: block;
-   border: 2px solid orange;
-   border-radius: 10px;
-   position: absolute;
-   top: 42px;
-   left: 313px;
-   z-index:2;
- }
- 
- .linha-horizontal{
-    width: 117px;
-    height: 6px;
-    background-color: #b3b2b2;
-    display: block;
-    position: absolute;
-    top: 44px;
-    left: 198px;
-    
+.pontodois{
+  top: 42px;
+  left: 190px;
+}
+  
+.pontotres{
+  top: 40px;
+  left: -8px;
+}
+
+.pontoquatro{
+  top: 295px;
+  left: 473px;
+}
+
+.linha-horizontal{
+  width: 117px;
+  height: 6px;
+  background-color: #b3b2b2;
+  display: block;
+  position: absolute;
+  top: 44px;
+  left: 198px;  
+}
+  
+
+.linha-vertical{
+  width: 6px;
+  height: 200px;
+  background-color: #b3b2b2;
+  display: block;
+  margin: 5px auto;
+  position: relative;
+}
+
+.dois{
+  position: absolute;
+  top: 150px;
+  left: 220px;
   }
 
-  .linha-vertical{
-    width: 6px;
-    height: 200px;
-    background-color: #b3b2b2;
-    display: block;
-    margin: 5px auto;
-    position: relative;
-  }
+.tres{
+  position: absolute;
+  top: 150px;
+  right: 220px;
+}
 
-  .auau{
-    position: absolute;
-    top: 150px;
-    left: 220px;
-  }
-
-  .teste{
-    position: absolute;
-    top: 150px;
-    right: 220px;
-  }
-
-  .testedois{
-    position: grid;
-    margin-top: -10px;
-  }
-
- .ponto-meio{
-   width: 10px;
-   height: 10px;
-   background-color: #ededed;
-   display: block;
-   border: 2px solid orange;
-   border-radius: 10px;
-   position: absolute;
-   top: 295px;
-   left: 475px;
-   z-index:2;
- }
+.quatro{
+  margin-top: -10px;
+}
