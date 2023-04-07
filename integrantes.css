@@ -66,9 +66,15 @@ svg{
   background: #fff;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+  box-shadow: 0 15px 25px 10px rgba(0, 0, 0, 1);
+}
+
+.card:hover {
+  width: 350px;
+  height: 500px;
+  transition: .5s;
+  margin-top: -25px;
 }
   
 .img-integrantes {
@@ -118,7 +124,7 @@ svg{
 }
   
 .insta, .github, .linkedin, .twitter{
-  width: 40px;
+  width: 45px;
   border-radius: 15px;
 }
 
@@ -126,4 +132,5 @@ svg{
   opacity: 0.5;
   transition: .4s;
   transform: rotate(20deg);
+  cursor: pointer;
 }
